@@ -1,0 +1,13 @@
+CREATE DATABASE bot_analytics;
+
+USE bot_analytics;
+
+CREATE TABLE bot_data (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    ip VARCHAR(45),
+    user_agent TEXT,
+    domain_name VARCHAR(255),
+    full_path TEXT,
+    check_value VARCHAR(10),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

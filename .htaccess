@@ -1,0 +1,3 @@
+# .htaccess
+# ป้องกันไม่ให้เข้าถึง directory โดยตรง
+Options -Indexes
